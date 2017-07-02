@@ -1,5 +1,7 @@
 A [Giter8][g8] template for [Phyto Plankton][p].
 
+[![Build Status](https://travis-ci.org/jvz/phyto.g8.svg?branch=master)](https://travis-ci.org/jvz/phyto.g8)
+
 Plankton is a project that offers alternative default imports and `Predef` object.
 Phyto takes a very small subset of the default Scala imports by excluding deprecated
 APIs, using immutable collection classes by default, etc. While the feature to support
