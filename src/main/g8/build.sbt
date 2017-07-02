@@ -1,9 +1,12 @@
-// give the user a nice default project!
-lazy val root = (project in file(".")).
-  settings(
-    inThisBuild(List(
-      organization := "com.example",
-      scalaVersion := "2.11.8"
-    )),
-    name := "Phyto Template Project"
-  )
+name := "$name$"
+organization := "$organization$"
+version := "$version$"
+
+scalacOrganization := "org.typelevel"
+scalaVersion := "2.12.1"
+
+// plankton is not on Maven Central yet
+resolvers += Resolver.url("bintray-stew", url("http://dl.bintray.com/stew/plankton"))(Resolver.ivyStylePatterns)
+
+// switch this to "Zoo" instead of "Phyto" to add in Cats syntax as a default Predef
+enablePlugins(PhytoPlankton)
