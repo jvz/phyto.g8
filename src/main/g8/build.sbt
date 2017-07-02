@@ -2,7 +2,7 @@ name := "$name$"
 organization := "$organization$"
 version := "$version$"
 
-scalacOrganization := "org.typelevel"
+scalaOrganization := "org.typelevel"
 scalaVersion := "2.12.1"
 
 // plankton is not on Maven Central yet
