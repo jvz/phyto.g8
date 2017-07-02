@@ -3,7 +3,7 @@ organization := "$organization$"
 version := "$version$"
 
 scalaOrganization := "org.typelevel"
-scalaVersion := "2.12.1"
+scalaVersion := "2.12.2"
 
 // plankton is not on Maven Central yet
 resolvers += Resolver.url("bintray-stew", url("http://dl.bintray.com/stew/plankton"))(Resolver.ivyStylePatterns)
